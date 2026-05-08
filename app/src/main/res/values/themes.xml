@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.Mobilne_projekt_lab" parent="android:Theme.Material.Light.NoActionBar">
+    </style>
+    <style name="Theme.Mobilne_projekt_lab.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_playstore2</item>
+        <item name="windowSplashScreenBackground">#3700B3</item>
+        <item name="postSplashScreenTheme">@style/Theme.Mobilne_projekt_lab</item>
+    </style>
+
+</resources>
